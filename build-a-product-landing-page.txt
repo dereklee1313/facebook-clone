@@ -1,0 +1,203 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Facebook landing page Certification project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <header id="header">
+    <div id="logo-container">
+    <img id="header-img" src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-Logo-Meaning.jpg" alt="facebook-logo">
+    <span id="logo-text">Connect with friends and the world around you on Facebook</span>
+    </div>
+
+    <div class="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+       <div>
+        <label for="email"><input id="email" name="email" type="email" placeholder="Email or Phone Number" required>
+        </label>
+       </div>
+       <div>
+        <label><input type="password" name="Password" id="Password" placeholder="Password">
+        </label>
+       </div>
+       <div>
+        <label for="log-in"><input id="submit" type="submit" value="Log In" class="submit">
+        </label>
+        <div>
+          <label for="create-new-account"><input id="create-new-account" type="submit" value="Create New Account" class="create-new-account">
+          </div>
+          <div>
+            <label for="forgot-password"><input id="forgot-password" type="submit" value="Forgot-password?" class="forgot-password">
+            </div>
+       </div>
+
+        </form>
+    </div>
+    <form id="form">
+    <nav id="nav-bar">
+      <ul id="navbar-links">
+        <li><a class="nav-link" href="#email">Log in</a></li>
+        <li><a class="nav-link" href="#forgot-password">Forgot Password?</a></li>
+        <li><a class="nav-link" href="#create-new-account">Create new account</a></li>
+        <li><a class="nav-link" href="#email">Create a Page</a> for a celebrity, brand or business.</li>
+        <li><a class="nav-link" src="https://www.youtube.com/watch?v=aUzR3McdusU" href="#video">Video on "How to make a Facebook page"</a></li>
+      </ul>
+ </nav>
+  </header>
+  </form>
+  <main>
+    <section id="log-in-bar">
+      <h2></h2>
+    </section>
+    <section id="forgot-password?">
+      <h2></h2>
+    </section>
+    <section id="create-new-account"></section>
+
+    <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/aUzR3McdusU" title="How to Create Facebook Page Easily" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2></h2>
+    </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+
+  }
+
+  img {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    border: none;
+  }
+
+  #logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    left: 350px;
+    padding: 10px;
+  }
+
+  #navbar-links {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 10px;
+  }
+
+  @media only screen and(max-width: 600px) {
+    iframe {
+      width: 90%;
+    }
+  }
+  header {
+    position: fixed;
+  }
+
+    * {
+  font-family: helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #f7f7f7;
+  }
+
+  body {
+    background-color: #f0f2f5;
+    overflow: hidden;
+  }
+
+  #logo-text {
+    position: absolute;
+    font-size: 28px;
+    left: 190px;
+    top: 286px;
+  }
+
+  #email, #password {
+    font-size: 18px;
+    border: 1px solid;
+    padding: 20px 69px 20px;
+    margin: 4px 0 0 15px;
+    text-align: left;
+    border-radius: 5px;
+  }
+
+#forgot-password {
+  color:  #1877f2;
+      border-bottom: 5px solid;
+    border-bottom-style: outset;
+    border-bottom-width: thin;
+    font-size: 15px;
+    border: 1px hidden;
+    padding: 20px 69px 20px;
+    margin: 4px 0 0 60px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+  #create-new-account {
+    font-size: 18px;
+    border: 1px solid;
+    padding: 20px 69px 20px 50px;
+    margin: 4px 0 0 60px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #32cd32;
+  }
+
+  #submit {
+    border: 1px solid;
+    padding: 20px 150px;
+    margin: 4px 0px 0px 15px;
+    background-color: #1877f2;
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+
+iframe {
+  width: 100px;
+  height: 100px;
+}
+
+#form {
+  display: grid;
+  left: 700px;
+  position: fixed;
+  bottom: 100px;
+}
+
+#logo-text {
+  margin: 100px 150px 600px 50px;
+  text-align: justify;
+  width: 400px;
+  height: 50px;
+}
+
+** end of undefined **
+
